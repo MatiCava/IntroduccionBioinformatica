@@ -1,15 +1,16 @@
 1) Completar el cuadro:
 
-Secuencia | Nombre taxonómico	 | Nombre común
-NP_061820.1	 | Homo sapiens	 | Humano
-NP_001072946.1 | Gallus gallus	 | Gallo
-NP_001065289.1 | Pan troglodytes | Chimpancé común
-NP_001157486.1 | Equus caballus | Caballos
-NP_001183974.1 | Canis lupus familiaris	 | Perro
-AEP27192.1 | Gorilla gorilla | Gorila occidental
-XP_024245566.1 | Oncorhynchus tshawytscha	| Salmón real
-NP_001086101.1 | Xenopus laevis	| Rana de uñas africana
-NP_477164.1	| Drosophila melanogaster	| Moscas de la fruta
+| Secuencia | Nombre taxonómico	 | Nombre común |
+|-------|------|------|
+| NP_061820.1	 | Homo sapiens	 | Humano |
+| NP_001072946.1 | Gallus gallus	 | Gallo |
+| NP_001065289.1 | Pan troglodytes | Chimpancé común |
+| NP_001157486.1 | Equus caballus | Caballos |
+| NP_001183974.1 | Canis lupus familiaris	 | Perro |
+| AEP27192.1 | Gorilla gorilla | Gorila occidental |
+| XP_024245566.1 | Oncorhynchus tshawytscha	| Salmón real |
+| NP_001086101.1 | Xenopus laevis	| Rana de uñas africana |
+| NP_477164.1	| Drosophila melanogaster	| Moscas de la fruta |
 
 2) ¿Cuán sencillo será alinear dos o más secuencias a mano? ¿Cuánto influirá en el número de secuencias a alinear, su longitud, y la similitud entre ellas?
 
@@ -30,12 +31,13 @@ La evolución explica que las poblaciones van diferenciándose debido a las vari
 
 6) Podemos elegir verlo en colores (Show Color ). ¿Qué indican los colores?
 
-Residue | Colour | Property
-AVFPMILW | Red | Small(small+ hydrophobic (incl.aromatic -Y))
-DE | Blue | Acidic
-RK | Magenta | Basic - H
-STYHCNGQ | Green | Hydroxyl + sulfhydryl + amine + G
-Others | Grey | Unusual amino/imino acids etc
+| Residue | Colour | Property |
+|-------|------|------|
+| AVFPMILW | Red | Small(small+ hydrophobic (incl.aromatic -Y)) |
+| DE | Blue | Acidic | 
+| RK | Magenta | Basic - H | 
+| STYHCNGQ | Green | Hydroxyl + sulfhydryl + amine + G |
+| Others | Grey | Unusual amino/imino acids etc |
 
 7) ¿Qué indican el guión (-), los dos puntos (:) y el asterisco (*)?
 
