@@ -1,0 +1,95 @@
+1) ¿Cómo describirías la estructura de esta proteína?¿Cómo podrías describir la estructura de esta proteína? Realizá la misma descripción pero para la proteína 1THJ, 3OGB
+
+1THJ: alfa-hélices, loops y beta-plegadas. 3OGB: alfa hélices y loops.
+
+4) Estudiá la proteína 2CPE. 
+
+a) ¿Qué tipo de proteína es?
+
+Tiene un núcleo concentrado con diferentes ramificaciones
+
+b) ¿Cómo la describirías? Utilizá el comando “setall_states, on” para ver todos los estados conformacionales estimados para esa estructura.
+
+No se ven túneles 2 alfa-hélices, 4 beta-plegadas y 7 loops.
+
+c) Compará el espacio conformacional de la 2CPE con la de la estructura de la mioglobina (1MYF).
+
+En comparacion la mioglobina (1MYF) no tiene beta-plegadas.
+
+d) Utilizando el modo secuencia, seleccioná la HIS64. Mostrala en formato stick o lines. ¿Qué función podría llegar a tener?
+
+Se debría unir con otro aminoácido catión estabilizando el ligando ya que la proteína 2CPE se relaciona con el ARN (anion)
+
+e) ¿Y la HIS93?
+
+Une la HEM con la proteína
+
+RETO I) Estas estructuras difieren de las estructuras sobre las que venimos trabajando en su determinación. Como habrás notado estas fueron obtenidas mediante la técnica de MNR, ¿Pero en qué consiste esta técnica?  
+
+La técnica NMR (nuclear magnetic resonance) consiste en generar fuertes campos magnéticos alrededor de una moléculas produciendo que el núcleo de algunos átomos actúen como pequeños imanes. Posteriormente se aplican ondas de radiofrecuencias de amplio espectro que hacen resonar al nucleo a su frecuencia especifica.
+
+5) Cálculo de la distancia promedio de un puente de hidrógeno.
+
+La medición entre el hidrógeno y el nitrógeno es de 1.0. La medición entre el oxígeno y el hidrógeno es de 3.2.Para ILE, la medición entre el oxígeno y el hidrógeno es de 2.6 y la medición entre el hidrógeno y el nitrógeno es de 0.9 Para PHE, la medición entre el hidrógeno y el nitrógeno es de 1 y la medición entre el oxígeno y el hidrógeno es de 2.6.
+
+RETO II) Investigá en qué consisten las interacciones puentes de hidrógeno, π-π y π-catión y qué aminoácidos podrían intervenir en dichas interacciones.
+
+Interacción puente de hidrógeno: es un tipo específico de interacción polar que se establece entre dos átomos significativamente electronegativos, generalmente O o N, y un átomo de H, unido covalentemente a uno de los dos átomos electronegativos.
+Interacción π-π: son un tipo de interacción no covalente que involucra sistemas π . El sistema π rico en electrones puede interactuar con un metal (catiónico o neutro), un anión, otra molécula e incluso otro sistema π.
+Interacción π-catión: es una interacción molecular no covalente entre la cara de un sistema π rico en electrones (vg. benceno, etileno) con un catión adyacente (vg. Li+, Na+). Esta interacción inusual es un ejemplo de enlace no covalente entre un monopolo (catión) y un cuadrupolo (sistema π).
+
+6) Identificación de interacciones π-π y π-catión.
+	
+Y, F y W forman los residuos aromáticos la proteína 1A7E.
+
+7) Sitio activo de la anhidrasa carbónica. Utilizado la estructura de la anhidrasa carbónica 1THJ y la opción Select en el Menú Edit: 
+
+a) ¿Cuántas subunidades tiene la estructura nativa?
+3 estructuras definidas.
+
+b) ¿Tiene heteroátomos esta molécula? ¿Cuáles?
+Zinc y oxígeno.
+	
+d) ¿Los residuos que unen el Zinc pertenecen a la misma subunidad?
+No. El zinc actúa como ligando entre las estructuras de la proteína.
+
+e) Determiná los contactos proteína-proteína en la estructura cuaternaria de la anhidrasa carbónica.
+La cadena A cuenta con 55 residuos. La cadena B cuenta con 54 residuos. La cadena C cuenta con 53 residuos.
+
+9) Utilizando el programa Pymol estudiá la estructura terciaria y cuaternaria de la proteína 4AUI. Determiná la superficie, localizá ligandos e identifícalos.
+
+La estructura terciaria tiene 31 átomos con ligandos inorgánicos y 93 átomos con ligandos orgánicos. La estructura cuaternaria tiene 3 subestructuras.
+
+10) Estudio de túneles. Utilizando el programa MOLE estudiá los túneles asociados al sitio activo de las estructuras 1THJ y 1F90. Este programa te pedirá que indiques a partir de qué regiones de la proteína debe comenzar la exploración en búsqueda de túneles. El punto de inicio puede ser a partir de cavidades, átomos o residuos seleccionados manualmente, o a partir de la base de datos CSA ( Catalytic site atlas ).
+
+La 1THJ tiene 8 cavidades y 20 túneles. La 1F90 tiene 6 cavidades y 10 túneles.
+
+11) Estudio de pockets en EGFR. El EGFR es uno de los principales marcadores de cáncer de pulmón. Utilizando la sesión de Pymol estudiá los pockets. 1M14 es un confórmero activo y 3W32 uno inactivo. Compará el sitio activo de ambos confórmeros así como también los tamaños de los pockets.		
+
+La 1M14 tiene 25 pockets. La 3W32 tiene 22 pockets. Los pockets de la proteina 1M14 ocupan más espacio de la superficie. Los pockets de la proteina 3W32 tienen mayor superficie por dentro de la proteina.
+
+12) Tomando como base la estructura PDB 3GPC, estudiá sus túneles utilizando el Fpocket.
+ 
+a) ¿Encontrás algún/os túnel/es en la proteína donde pueda unirse algún fármaco? 
+23 túneles
+
+b) ¿Qué residuos se encuentran en dicha cavidad?
+22 STP
+
+RETO III) Investigá en qué consiste el docking, en qué ideas basa su funcionamiento.
+
+El docking o acoplamiento molecular es una técnica de mecánica molecular usada para predecir energías y modos de enlace entre proteínas y ligandos. Este método tiene un rol muy importante en el diseño racional de fármacos. Para tal fin entran en juego una serie de procesos químicos gobernados por leyes físicas, entre ellas las que tienen que ver con la energía que se consume o libera en tal proceso. En la actualidad contamos con sofisticadas técnicas experimentales de cuyos resultados se extrae información tridimensional tanto de las proteínas como de los ligandos.
+		
+c) ¿Dónde se une el inhibidor? 
+Se encuentra en un túnel.
+
+d) ¿Coincide con el túnel que propusiste anteriormente?
+Si coincide.
+
+e) ¿Dada esta inspección ocular cómo creés que actúa el inhibidor? Usando el play de la botonera, observá las distintas conformaciones del ligando o inhibidor.
+El ligando "gira" dentro del tunel sin salirse.
+
+13) Asignación de estructura secundaria basado DSSP. Para inferir estructura secundaria utilizaremos el servidor 2StrucCompare con la Endolisina de bacteriófago en dos variantes (3F8V y 4LMZ).
+
+1)b) ¿todas son de igual cantidad de residuos? ¿Se requieren más o menos residuos para formar una alfa hélice que un loop? ¿Por qué?
+No. La 3F8V tiene más residuo helicoidal que la 4LMZ. Una estructura secundaria de alfa hélice necesita 3.6 residuos de AA por vuelta.
